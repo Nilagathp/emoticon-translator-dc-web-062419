@@ -16,7 +16,6 @@ def load_library(file)
   new_hash
 end
 
-def get_japanese_emoticon
 def get_japanese_emoticon(file, emoticon)
   # code goes here
   emote_hash = load_library(file)
@@ -29,7 +28,6 @@ def get_japanese_emoticon(file, emoticon)
   end
 end
 
-def get_english_meaning
 def get_english_meaning(file, emoticon)
   # code goes here
 end 
